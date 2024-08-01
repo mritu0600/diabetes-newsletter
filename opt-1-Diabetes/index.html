@@ -1,0 +1,892 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Landing Page</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/owl.carousel.min.css" rel="stylesheet">
+<link href="css/owl.theme.default.min.css" rel="stylesheet">
+<link href="css/bootstrap-datepicker.css" rel="stylesheet">
+<link href="css/rangeslider.min.css" rel="stylesheet">
+<link href="css/select2.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ <!-- Meta Pixel Code -->
+     <!-- Google tag (gtag.js) -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16511770164"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'AW-16511770164');
+     </script>
+     <script>
+         !function(f,b,e,v,n,t,s)
+         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+         if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+         n.queue=[];t=b.createElement(e);t.async=!0;
+         t.src=v;s=b.getElementsByTagName(e)[0];
+         s.parentNode.insertBefore(t,s)}(window, document,'script',
+         'https://connect.facebook.net/en_US/fbevents.js');
+         fbq('init', '3388325111398556');
+         fbq('track', 'PageView');
+         </script>
+         <noscript><img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=3388325111398556&ev=PageView&noscript=1"
+         />
+     </noscript>
+     <!-- End Meta Pixel Code -->
+     <style>
+         .error{
+         color:red;
+         }
+     
+         #checkbox-error{
+         color: red;
+         margin-left: 10px;
+         font-size: 15px;
+         }
+   </style>
+</head>
+
+<body>
+<div id="click" class="scroll-top-wrapper show">
+  <div class="click-right">
+    <h2>Pay To Sign up</h2>
+  </div>
+</div>
+
+<!--banner start-->
+<div class="header-section">
+  <div class="container"> <a href="" class="logo"><img src="images/logo.png"></a> </div>
+</div>
+<div class="space-top"></div>
+<div class="banner-and-form-section">
+  <div class="row row-mg0">
+    <div class="col-xxl-6 col-12 col-lg-6">
+      <div class="banner-design-section"> <img src="images/banner.jpg" class="mobile-hidden"> <img src="images/mobile-banner-landing.png" class="desktop-hide"> </div>
+    </div>
+    <div class="col-xxl-6 col-12 col-lg-6">
+      <form id="newsletter" action="submit.php" method="post" class="lead-form-section">
+        <div class="bg-circle-fix"></div>
+        <div class="tringle-fix"><img src="images/tringle-icon.png"></div>
+        <div class="lead-form-section-position">
+          <h2 class="lead-headline">Sign-up for the 90-day Program</h2>
+          <div class="row">
+            <div class="col-xxl-6 col-12 col-lg-6">
+               <div class="form-group">
+                  <label>Name</label>
+                  <input type="text" class="form-control" name="name" placeholder="Enter your name">
+                  <div class="icon-form"><img src="images/user.png"></div>
+               </div>
+            </div>
+            <div class="col-xxl-6 col-12 col-lg-6">
+               <div class="form-group">
+                  <label>Email</label>
+                  <input type="text" class="form-control" name="email" placeholder="Enter your email">
+                  <div class="icon-form"><img src="images/email.png"></div>
+               </div>
+            </div>
+         </div>
+          <div class="row">
+            <div class="col-xxl-6 col-12 col-lg-6 pl-pr">
+              <div class="form-group">
+                <label>Mobile No.</label>
+                <input type="text" name="mobile" class="form-control" placeholder="Enter your mobile number">
+                <div class="icon-form"><img src="images/mobile.png"></div>
+              </div>
+            </div>
+            <div class="col-xxl-6 col-12 col-lg-6 pl-pr">
+              <div class="form-group">
+                <label>City</label>
+                <input type="text" name="city" class="form-control" placeholder="Enter your City">
+                <div class="icon-form"><img src="images/city.png"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-12 col-12 col-lg-12">
+            <div class="form-group ml-5 mt-2">
+              <div class="inner-addon left-addon">
+                <div class="checkbox1">
+                  <input name="checkbox" id="checkboxG6" class="css-checkbox" type="checkbox">
+                  <label for="checkboxG6" class="css-label"> I authorize the company to contact me overriding my registry on NDNC/NCPR for clarifications/product information. I have read, understood and agree to the privacy policy and <a href="images/Liability-Waiver-final.pdf" target="_blank">medical liability</a>. </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xxl-12 col-12 col-lg-12">
+              <div class="btn-center">
+                <button type="submit" class="btn btn-submit">SUBSCRIBE NOW <img src="images/button-arrow.png"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!--banner end--> 
+
+<!--take control today-->
+<div class="take-control-today-section take-control-today-section-bg">
+  <div class="past-summit-css-fix"></div>
+  <div class="discussion-topics-fix"><img src="images/white-tringle-icon.png"></div>
+  <div class="discussion-topics-fix2"><img src="images/white-tringle-icon.png"></div>
+  <div class="discussion-topics-fix3"><img src="images/white-tringle-icon.png"></div>
+  <div class="container">
+    <div class="speaker-panel-headline">
+      <h2>Three months unlimited access <span>for ₹199</span></h2>
+      <p class="ft-aligh">Program starts from 15th August 2024</p>
+      <div class="watermark">Three months unlimited</div>
+    </div>
+    <div class="list-take-control-today-box">
+      <div id="owl-demo" class="owl-carousel owl-theme take-cont">
+        <div class="item">
+          <div class="take-border-box"> <img src="images/d1.png">
+            <h2><span>60+ Premium Content Resources,</span> Verified by 50+ Doctors</h2>
+          </div>
+        </div>
+        <div class="item">
+          <div class="take-border-box"> <img src="images/d6.png">
+            <h2><span>12 Tips</span> From a Diabetologist</h2>
+          </div>
+        </div>
+        <div class="item">
+          <div class="take-border-box"> <img src="images/d5.png">
+            <h2><span>12 Ayurveda </span>Insights into Diabetes</h2>
+          </div>
+        </div>
+         <div class="item">
+          <div class="take-border-box"> <img src="images/d7.png">
+            <h2><span>Daily Reminders for</span> Effective Lifestyle Transformation</h2>
+          </div>
+        </div>
+        <div class="item">
+          <div class="take-border-box"> <img src="images/d4.png">
+            <h2><span>6 LIVE Online Group</span> Consultation with Diabetologist</h2>
+          </div>
+        </div>
+        <div class="item">
+          <div class="take-border-box"> <img src="images/d3.png">
+            <h2><span>Doubt Clarification/Consultation</span> with Diabetologist</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="new-section-boucher-design"> <img src="images/bch.png">
+      <p> Plus Receive a free subscription to <span>Wellbeing on the Web</span> </p>
+     <h4> FREE 3 Months <span>E-Magazine subscription</span></h4>
+      <a href="#suba">SUBSCRIBE NOW</a> </div>
+  </div>
+</div>
+<!--take control today--> 
+
+<!--take control today-->
+<div class="take-control-today-section wellbing-pd-bottom">
+  <div class="past-summit-css-fix"></div>
+  <div class="speaker-panel-fix"><img src="images/tringle-icon.png"></div>
+  <div class="speaker-panel-fix2"><img src="images/tringle-icon.png"></div>
+  <div class="speaker-panel-fix3"><img src="images/tringle-icon.png"></div>
+  <div class="container">
+    <div class="speaker-panel-headline">
+      <h2>Wellbeing On <span>The Web</span></h2>
+      <div class="watermark">Wellbeing</div>
+    </div>
+    <div class="list-take-control-today-box">
+      <div id="owl-demo" class="owl-carousel owl-theme Wellbeing-carousel1">
+        <div class="item">
+          <div class="take-border-box"> <img src="images/s4.png">
+            <h2><span>Online Yoga and</span> Meditation Classes</h2>
+          </div>
+        </div>
+        <div class="item">
+          <div class="take-border-box"> <img src="images/s5.png">
+            <h2><span>Physical</span> Fitness Classes</h2>
+          </div>
+        </div>
+        <div class="item">
+          <div class="take-border-box"> <img src="images/s6.png">
+            <h2><span>Nutritionist</span> Consultations</h2>
+          </div>
+        </div>
+        <div class="item">
+          <div class="take-border-box"> <img src="images/s8.png">
+            <h2><span>Diagnostics</span> Tests</h2>
+          </div>
+        </div>
+        <div class="item">
+          <div class="take-border-box"> <img src="images/s9.png">
+            <h2>Videos <br/>
+              <br/>
+            </h2>
+          </div>
+        </div>
+        <div class="item">
+          <div class="take-border-box"> <img src="images/s10.png">
+            <h2><span>Expert</span> Webinars</h2>
+          </div>
+        </div>
+        <div class="item">
+          <div class="take-border-box"> <img src="images/s11.png">
+            <h2>Articles <br/>
+              <br/>
+            </h2>
+          </div>
+        </div>
+        <!--<div class="item">
+          <div class="take-border-box"> <img src="images/s12.png">
+            <h2><span>Self</span> Assessment Tests</h2>
+          </div>
+        </div>-->
+        <div class="item">
+          <div class="take-border-box"> <img src="images/s14.png">
+            <h2><span>Online</span> Wellness Games</h2>
+          </div>
+        </div>
+        <!--<div class="item">
+          <div class="take-border-box"> <img src="images/s15.png">
+            <h2><span>Weekly</span> Emailers</h2>
+          </div>
+        </div>-->
+        <div class="item">
+          <div class="take-border-box"> <img src="images/s16.png">
+            <h2>Newsletters <br/>
+              <br/>
+            </h2>
+          </div>
+        </div>
+       <!-- <div class="item">
+          <div class="take-border-box"> <img src="images/s17.png">
+            <h2><span>Monthly</span> Reports</h2>
+          </div>
+        </div>-->
+      </div>
+    </div>
+    <div class="partner-section">
+      <div class="partner-content">
+        <h2>Natural Sweetener <span>Partner</span></h2>
+      </div>
+      <div class="partner-logo"><img src="images/partner.png"></div>
+    </div>
+  </div>
+</div>
+<!--take control today--> 
+
+<!--Editorial Team start-->
+<div class="speaker-panel-section-design editorial-panel-section-s">
+  <div class="discussion-topics-fix"><img src="images/white-tringle-icon.png"></div>
+  <div class="discussion-topics-fix2"><img src="images/white-tringle-icon.png"></div>
+  <div class="discussion-topics-fix3"><img src="images/white-tringle-icon.png"></div>
+  <div class="container rl-2">
+    <div class="row">
+      <div class="col-xxl-5 col-12 col-lg-5">
+        <div class="speaker-panel-headline">
+          <h2>Testimonials</h2>
+          <div class="watermark">Testimonials</div>
+        </div>
+      </div>
+      <div class="col-xxl-7 col-12 col-lg-7">
+        <div id="owl-demo" class="owl-carousel owl-theme speaker-carousel1">
+          <div class="item">
+            <div class="circle-img"><img src="images/spakerslider3.png"></div>
+            <div class="speaker-crousel-list">
+              <h2> Dr V Mohan </h2>
+              <h4>Chairman-Dr Mohan’s Diabetes Specialities Centre, Chennai</h4>
+              <p>I am happy to present this testimonial to Happiest Health. Happiest Health’s diabetes management knowledge program is backed by science and verified by doctors and nutritionists. The program is based on four pillars -- being active, eating the right kind of foods at the right time, sleeping well and addressing nutritional deficiencies. I do believe that anybody following the advice being disseminated through this program will greatly benefit from it and will be able to manage their blood glucose levels better, of course with the guidance of their diabetologists.
+                Wishing Happiest Health all the very best. </p>
+              <div class="circle-fixing"></div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="circle-img"><img src="images/spakerslider4.png"></div>
+            <div class="speaker-crousel-list">
+              <h2> Shashikant Iyengar </h2>
+              <h4>Metabolic Health Coach-Mumbai </h4>
+              <p>This series on diabetes management is a must for anyone looking to take control of their diabetes journey. This comprehensive program is tailored for individuals with diabetes, caregivers, and even healthcare professionals who want to deepen their understanding of diabetes management.</p>
+              <p> With insights from 47 doctors and nutritionists, the program provides a wealth of verified information, ensuring that every piece of advice is grounded in the latest research and clinical expertise. Each module addresses topical questions with clarity and precision, making complex medical information accessible and actionable. </p>
+              <div class="circle-fixing"></div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="circle-img"><img src="images/spakerslider5.png"></div>
+            <div class="speaker-crousel-list">
+              <h2> Madeshwaran S </h2>
+              <h4>Online Media Specialist </h4>
+              <p>My life took an unexpected turn when I was told I had Type 2 diabetes two years ago - I had to make significant modifications to my way of life but I refused to let the diagnosis define who I was.
+                While doing some research I chanced upon an article in happiesthealth.com which gave me actionable knowledge -- foods high in fiber should be the foundation of my food pyramid, followed by proteins in the second layer and carbohydrates in the final, tiny section. Added to that, I was asked to walk after every meal.
+                It wasn't easy, but I persisted. 
+                My doctor was astounded after six months. My medications were reduced as my HbA1C levels fell drastically; I felt energetic and more alive than ever before. </p>
+              <div class="circle-fixing"></div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="circle-img"><img src="images/spakerslider6.png"></div>
+            <div class="speaker-crousel-list">
+              <h2> Dr Mohit Sharma </h2>
+              <h4>Senior Consultant Physician </h4>
+              <p>Internal Medicine and Endocrinology Amrita Hospital, Faridabad
+                I would like to congratulate Happiest Health’s Diabetes Management Knowledge Program for excellent work and doing their part of much-needed public service by raising awareness and imparting education to patients and public about this single most important medical condition by far. <br/>
+                Happiest Health’s special newsletter on diabetes has good quality and authentic content which is fact-checked, backed by latest research with evidence-based actionable advice. I regularly consume their content and wish them best wishes for future and keep up the good work. </p>
+              <div class="circle-fixing"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Editorial Team end--> 
+
+
+<!--about-->
+<div class="about-section-design">
+  <div class="about-section-css-fix"></div>
+    <div class="speaker-panel-fix"><img src="images/tringle-icon.png"></div>
+  <div class="speaker-panel-fix2"><img src="images/tringle-icon.png"></div>
+  <div class="speaker-panel-fix3"><img src="images/tringle-icon.png"></div>
+  <div class="container rl-2">
+    <div class="row programm-section-design">
+      <div class="col-xxl-5 col-12 col-lg-5">
+        <div class="past-summit-headline">
+          <h2>Program <span>Coordinators</span> </h2>
+          <div class="watermark">Program</div>
+        </div>
+      </div>
+      <div class="col-xxl-7 col-12 col-lg-7">
+        <div id="owl-demo" class="owl-carousel owl-theme testimonial-carousel1">
+          <div class="item">
+            <div class="testimonial-bg-section">
+              <h2>Dr Nagaraj Lakshmeswar</h2>
+              <h4>Diabetologist, Happiest Health</h4>
+              <p>Since 2016, Dr Nagaraj Lakshmeswar has been helping people transform their lives after diabetes. He has been practicing comprehensive diabetes management after completing his Clinical Diabetes Management program certified by the American Diabetes Association from CDF, Coimbatore. Dr Nagaraj has been passionately working on providing clinical care with integrated approach implementing nutrition therapy, functional fitness, stress management and behavioral modelling. He has conducted 100+ workshops, corporate talks and impacted thousands of people manage diabetes through metabolic reversal, weight management, glycemic management, stress management, mindfulness, comprehensive meditation and mindskill programs through online and offline channels. </p>
+            </div>
+            <div class="face-icon"><img src="images/as.jpg"></div>
+            <div class="q1"><img src="images/q2.png"></div>
+            <div class="q2"><img src="images/q1.png"></div>
+          </div>
+          <div class="item">
+            <div class="testimonial-bg-section">
+              <h2>Ravi Joshi</h2>
+              <h4>Chief Editor - Digital</h4>
+              <p>Ravi Joshi was editing Bangalore Mirror when Covid’s second wave caught him by the scruff of the neck. He was admitted to hospital -- a severe cytokine storm had set in – and administered corticosteroids, among other drugs. He returned from hospital with an HbA1c of 9.8 – a full-blown diabetic with dangerously high levels of blood glucose. He was advised medication and insulin. Determined not to consign his life to drugs, RJ started climbing stairs. With more research, he changed his diet to include more fiber and protein. A Continuous Glucose Monitor (CGM) patch gave him further insights into his body and its fueling/exercise needs. Within four months, his HbA1C had come down to 6.2 and to 5.3 in another 3 months. Currently, he is at 5.7. He has sweets every now and then, delves deep into diabetes research and keeps walking. </p>
+            </div>
+            <div class="face-icon"><img src="images/spakerslider2.png"></div>
+            <div class="q1"><img src="images/q2.png"></div>
+            <div class="q2"><img src="images/q1.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--about--> 
+
+
+
+<!--faq-->
+<div class="faq-section-fesign">
+  <div class="faq-css-fix"></div>
+  <div class="discussion-topics-fix"><img src="images/white-tringle-icon.png"></div>
+  <div class="discussion-topics-fix2"><img src="images/white-tringle-icon.png"></div>
+  <div class="discussion-topics-fix3"><img src="images/white-tringle-icon.png"></div>
+  <div class="container rl-2">
+    <div class="headline-and-text-court">
+      <h2>FAQs</h2>
+      <div class="watermark">FAQ</div>
+    </div>
+    <div class="accordion faq-accordian-section" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+
+aria-expanded="true" aria-controls="collapseOne">1. Can diabetes be reversed?</button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+
+data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>The correct term is “remission” and lifestyle modifications can lead to significant improvements in managing type 2 diabetes. Achieving remission involves controlling blood glucose levels effectively, often through weight loss, portion control, limiting intake of sugars and carbohydrates, regular physical activity, stress management, hydration, and adequate sleep, among other healthy measures. </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+
+data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">2. Is there a guarantee that my sugar levels will reduce after I enrol for this program?</button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+
+data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>This is not a medical program and outcomes will depend on the effort you put in. This program will empower you with the knowledge to deal with diabetes. A reduction in your blood glucose readings will happen only if you act upon these techniques – day after day. Remember, it is a D-I-Y program. We provide the knowledge verified by 50+ doctors and nutritionists and YOU have to act on it. Only then will you see an improvement in your blood glucose levels.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+
+data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> 3. Will I get a refund if my blood glucose levels remain unchanged after the program?</button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+
+data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>No. The Diabetes Transformation Program by Happiest Health is a D-I-Y plan. We provide you with the knowledge to effectively deal with your elevated blood glucose levels. How much of a reduction you achieve is completely up to you. If you are on medications and/or insulin, please check with your medical practitioner before incorporating any of the tips into your daily routine. Please read the medical liability waiver for further information.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+
+data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">4. Who should subscribe to this program?</button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+
+data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Anybody who wishes to lead a life free of dangerous ultra-processed junk and a lifetime of energy and vitality. We encourage you to gift a subscription to a loved one – and ask them to practice the knowledge that they find in these emails. It will help them discover a happier, healthier version of themselves.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+
+data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">5. Does it work for Type I diabetes or only Type II? </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+
+data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Type I diabetes is an autoimmune disease which requires insulin and/or medications.
+Type II diabetes, on the other hand, is caused by poor dietary and lifestyle choices and thus can be dealt with once those corrections are made. This program aims to empower you with the knowledge to make better dietary and lifestyle choices. </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingElewen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+
+data-bs-target="#collapseElewen" aria-expanded="false" aria-controls="collapseElewen">6. How will Happiest Health’s program help me?</button>
+        </h2>
+        <div id="collapseElewen" class="accordion-collapse collapse" aria-labelledby="headingElewen"
+
+data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Unlike other diabetes programs, ours won’t restrict you from eating what you love – we will only suggest healthier options, ask you to throw out oils that cause inflammation and thus lead to elevated lipid levels, give you tips on building exercise into your routine and an overall insight on how your body reacts to different foods and routines. If followed religiously and in right earnest, it will lower your blood glucose levels and make you feel fitter, healthier and more energetic.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+
+data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">7. What if I have underlying medical conditions? What should do I about my medicines? </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+
+data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>We strongly recommend that you work with your healthcare practitioner before making any change to your diet, medications or daily routine. The knowledge provided in this program is of a generic nature and benefits those who have high blood glucose levels due to poor dietary or lifestyle choices. A doctor is your best bet if you have any underlying medical conditions. </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+
+data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">8. Will I be able to consult doctors under the Happiest Health plan? </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+
+data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Happiest Health’s diabetes transformation program gives you insights into how the body processes the food you eat. We bring to you 360-degree coverage on diabetes after speaking to doctors and nutritionists from across the world. We offer limited seats on our group therapy sessions; the first 200 sign-ups will get access to these sessions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingEight">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+
+data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">9. Why does Happiest Health’s program cost just Rs 199 when others charge thousands? </button>
+        </h2>
+        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+
+data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Happiest Health’s diabetes transformation program is a D-I-Y plan. A Do-It-Yourself plan. We provide you the knowledge and YOU have to put it into practice. We have imposed a negligible cost only to ensure that you stay invested in the plan and stay the course. We do not provide any gadgets like others to justify the high costs. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="small-scg">Disclaimer: This Program is subject to a medical liability waiver. Please read carefully before signing up.</p>
+</div>
+<!--faq-->
+
+<div class="footer-section"> ©2024 HappiestHealth All rights reserved.</div>
+<script src="js/jquery-1.9.1.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/owl.carousel.js"></script> 
+<script src="js/bootstrap-datepicker.min.js"></script> 
+<script src="js/html5lightbox.js"></script> 
+<script src="js/rangeslider.min.js"></script> 
+<script src="js/select2.min.js"></script> 
+<script src="js/jquery.mobile.custom.min.js"></script> 
+<script src="js/jquery.cm-overlay.js"></script> 
+<script src="js/moment-with-locales.js"></script> 
+<script src="js/lightbox-with-text.js"></script> 
+<script>
+
+$(document).ready(function(){
+$('select').select2();    
+});
+
+
+</script> 
+<script>
+$(document).ready(function() {
+var owl = $('.speaker-carousel1');
+owl.owlCarousel({
+nav: true,
+loop: false,
+nav:false,
+autoplay:false,
+item:1,
+margin:0,
+responsive: {
+0: {
+items: 1,
+margin:0,
+},
+767: {
+items: 1,
+},
+1000: {
+items:1,
+
+},
+1001: {
+items:1,
+},
+1200: {
+items:1,
+margin:0,
+},
+}
+})
+})
+
+</script> 
+<script>
+$(document).ready(function() {
+var owl = $('.discussion-topics-carousel1');
+owl.owlCarousel({
+nav: true,
+loop: true,
+nav:false,
+autoplay:false,
+item:2,
+margin:0,
+responsive: {
+0: {
+items: 1.3,
+},
+767: {
+items: 2,
+},
+1000: {
+items:2,
+
+},
+1001: {
+items:2,
+},
+1200: {
+items:2,
+margin:0,
+},
+}
+})
+})
+
+</script> 
+<script>
+$(document).ready(function() {
+var owl = $('.past-summit-carousel1');
+owl.owlCarousel({
+nav: true,
+loop: true,
+nav:false,
+autoplay:false,
+item:2,
+margin:0,
+responsive: {
+0: {
+items: 1.3,
+},
+767: {
+items: 2,
+},
+1000: {
+items:2,
+
+},
+1001: {
+items:2,
+},
+1200: {
+items:2,
+margin:0,
+},
+}
+})
+})
+
+</script> 
+<script>
+$(document).ready(function() {
+var owl = $('.testimonial-carousel1 ');
+owl.owlCarousel({
+nav: true,
+loop: true,
+nav:false,
+autoplay:false,
+item:1,
+margin:0,
+responsive: {
+0: {
+items: 1,
+},
+767: {
+items: 1,
+},
+1000: {
+items:1,
+
+},
+1001: {
+items:1,
+},
+1200: {
+items:1,
+margin:0,
+},
+}
+})
+})
+
+</script> 
+<script>
+$(document).ready(function() {
+var owl = $('.Wellbeing-carousel1 ');
+owl.owlCarousel({
+nav: true,
+loop: true,
+nav:false,
+autoplay:false,
+item:6,
+margin:0,
+responsive: {
+0: {
+items: 2,
+},
+767: {
+items: 3,
+},
+1000: {
+items:4,
+
+},
+1001: {
+items:4,
+},
+1200: {
+items:5,
+margin:0,
+},
+1300: {
+items:6,
+margin:0,
+},
+}
+})
+})
+
+</script> 
+<script>
+$(document).ready(function() {
+var owl = $('.take-cont');
+owl.owlCarousel({
+nav: true,
+loop: true,
+nav:false,
+autoplay:false,
+item:3,
+margin:0,
+responsive: {
+0: {
+items: 1,
+},
+767: {
+items: 2,
+},
+1000: {
+items:2,
+
+},
+1001: {
+items:2,
+},
+1200: {
+items:3,
+margin:0,
+},
+1300: {
+items:3,
+margin:0,
+},
+}
+})
+})
+
+</script> 
+<script>
+$(document).ready(function() {
+var owl = $('.subscriotion-carousel1 ');
+owl.owlCarousel({
+nav: true,
+loop: true,
+nav:false,
+autoplay:false,
+item:3,
+margin:0,
+responsive: {
+0: {
+items: 2,
+},
+767: {
+items: 3,
+},
+1000: {
+items:3,
+
+},
+1001: {
+items:3,
+},
+1200: {
+items:3,
+margin:0,
+},
+}
+})
+})
+
+</script> 
+<script>
+$(document).ready(function(){
+
+$(function(){
+
+$(document).on( 'scroll', function(){
+
+if ($(window).scrollTop() > 820) {
+$('.scroll-top-wrapper').addClass('show');
+} else {
+$('.scroll-top-wrapper').removeClass('show');
+}
+});
+
+$('.scroll-top-wrapper').on('click', scrollToTop);
+});
+
+function scrollToTop() {
+verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset :0;
+element = $('body');
+offset = element.offset();
+offsetTop = offset.top;
+$('html, body').animate({scrollTop: offsetTop}, 400, 'linear');
+}
+
+});
+
+
+</script>
+
+<script src="jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" ></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      jQuery.validator.addMethod("cEmail", function(value, element) {
+        // allow any non-whitespace characters as the host part
+        return this.optional( element ) || /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/.test( value );
+      }, 'Please enter a valid email address.');
+
+      jQuery.validator.addMethod("camount", function(value, element) {
+        // allow any non-whitespace characters as the host part
+        return this.optional( element ) || /^(\d+|\d{1,3}(,\d{3})*)?$/.test( value );
+      }, 'Please enter a valid Amount.');
+
+      jQuery.validator.addMethod("cphone", function(value, element) {
+        // allow any non-whitespace characters as the host part
+        // return this.optional( element ) || /^\+[1-9]{1}[0-9]{3,14}$/.test( value );
+        return this.optional( element ) || /^([0|\+[0-9 ]{1,5})?([7-9][0-9]{9})$/.test( value );
+      }, 'Please enter a valid mobile number.');
+      jQuery.validator.addMethod("cname", function(value, element) {
+        // allow any non-whitespace characters as the host part
+        return this.optional( element ) || /^[a-zA-Z ]*$/.test( value );
+      }, 'Please enter a valid Name.');
+      
+      var $select = $('select').select2({
+        //placeholder: 'Select',
+        allowClear: false
+      });
+      $select.on('change', function() {
+        $(this).trigger('blur');
+      });
+
+      $("#newsletter").validate({
+        rules: {
+          name: {required:true,cname:true,},
+          email: {required: true,cEmail: true},
+          mobile: {required: true,cphone: true,minlength: 10,maxlength:12},
+          city: "required",
+          checkbox: "required",
+
+        },
+        messages: {
+          name: {required:"Please enter First Name",cname:"Please enter a valid Name"},  
+          city: {required:"Please enter city"},    
+          email: {required:"Please enter email address",cEmail:"Please enter a valid email address"},
+          mobile: {required:"Please enter mobile No."}, 
+          checkbox: {required:"Please select checkbox"},
+        },
+        errorPlacement: function( label, element ) {
+          if( element.attr( "name" ) === "checkbox" ) {
+            element.parent().append( label ); // this would append the label after all your checkboxes/labels (so the error-label will be the last element in <div class="controls"> )
+          } else {
+            label.insertAfter( element ); // standard behaviour
+          }
+        },
+        submitHandler: function(form) {
+        form.submit();
+      }
+      });
+    });
+  </script>
+</body>
+</html>
